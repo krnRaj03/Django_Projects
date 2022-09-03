@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Rock+3D&family=Secular+One&family=Spline+Sans+Mono:wght@500&display=swap');
+body{
+  background-color: whitesmoke;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Rock 3D', cursive;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'Spline Sans Mono', monospace;
+}
+h3{
+  position: absolute;
+  left:20rem;
+  top:10rem;
+ 
+}
+img{
+  position: absolute;
+  left:29rem;
+  top:10rem;
+max-width: 500px;
+max-height: 300px;
+border-radius:5% ;
+}

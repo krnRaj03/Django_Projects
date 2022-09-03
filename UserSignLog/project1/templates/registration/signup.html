@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% comment %} title block {% endcomment %} 
+{% block title %} This is our SIGNUP page{% endblock %} {% load crispy_forms_tags %} 
+{% comment %} content block {% endcomment %} {% block content %}
+<div class="container-sm">
+  <div class="col-sm-8 mx-4">
+    <form method="post" action="" class="form-control my-4 mx-4">
+      {% csrf_token %} {{ form1|crispy}}
+      <button type="submit" class="btn btn-success my-4">SIGNUP</button>
+      <p class="text-muted mx-4">
+        Already have an account? Login<a href="login">here</a>
+      </p>
+    </form>
+  </div>
+</div>
+{% endblock %}
